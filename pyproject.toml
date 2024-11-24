@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "fastapi-injector>=0.6.2",
     "fastapi[standard]>=0.115.5",
     "pandas>=2.2.3",
     "sqlmodel>=0.0.22",
@@ -13,4 +14,5 @@ dependencies = [
 [tool.uv]
 dev-dependencies = [
     "ipykernel>=6.29.5",
+    "pytest>=8.3.3",
 ]
